@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Skills from "@/components/sections/Skills";
@@ -12,7 +12,7 @@ import FloatingContact from "@/components/FloatingContact";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      <Header />
+      {/* <Header /> */}
       <main>
         <Hero />
         <About />
